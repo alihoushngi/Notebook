@@ -1,0 +1,87 @@
+.col1-wrapper {
+  background-color: #f6f5f5;
+}
+
+.col1-wrapper label {
+  font-weight: 600;
+}
+
+.col2-wrapper {
+  background-color: #cacaf5;
+  color: rgb(10, 10, 122);
+  /* border-radius: 12px; */
+}
+
+.col2-wrapper h5 {
+  font-weight: bold !important;
+}
+
+.ul-wrapper {
+  background-color: #ffffff;
+  color: rgb(10, 10, 122);
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+@media (max-width: 576px) {
+  .cols-wrapper {
+    flex-direction: column;
+  }
+  /* .col1-wrapper {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .col2-wrapper {
+  } */
+}
+textarea:focus {
+  outline: none !important;
+  border-style: ridge;
+  border-color: #719ece;
+  box-shadow: 0 0 5px #719ece;
+}
+
+.message-box {
+  height: 12rem;
+  border-radius: 12px;
+  border: 2px solid #cacaf5;
+}
+.button-style {
+  border: 3px solid #b6b6f1;
+  border-radius: 12px;
+  /* width: 6rem; */
+  height: 2.5rem;
+  background-color: #cacaf5;
+  color: rgb(10, 10, 122);
+  font-weight: 600;
+  box-shadow: 0 0 5px #8facca;
+  transition: all 0.5s;
+}
+
+.button-style:hover {
+  background-color: rgb(10, 10, 122);
+  color: #cacaf5;
+}
+
+#note-list {
+  padding: 1rem;
+  background-color: #cacaf5;
+}
+
+.note-li {
+  color: rgb(10, 10, 122);
+  list-style-type: decimal;
+}
+
+.note-li a {
+  color: red;
+  text-decoration: none;
+  float: left;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.note-li a:hover {
+  color: rgb(163, 34, 51);
+  cursor: pointer;
+}
